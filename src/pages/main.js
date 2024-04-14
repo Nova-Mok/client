@@ -117,7 +117,6 @@ const SearchComponent = () => {
         )}
       </Box>
 
-      {/* Chat Box - Minimized and Expanded Views */}
       <Box position="fixed" bottom="20px" right="20px" zIndex="overlay">
         <Collapse in={isChatOpen} animateOpacity>
           <Box bg="gray.100" maxWidth="400px" borderRadius="xl" boxShadow="md">
