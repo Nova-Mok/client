@@ -7,6 +7,8 @@ import Onboarding from './pages/onboarding';
 
 function App() {
   const { email } = useParams();
+  const aws_api_key = "AKIAIOSFODNN7EXAMPLE"; 
+  
   return (
     <Router>
       <Routes>
